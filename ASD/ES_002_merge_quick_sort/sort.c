@@ -74,7 +74,5 @@ void merge_sort_rec(void **base, size_t l, size_t r, int (*compar)(const void *,
 
 void merge_sort(void **base, size_t nitems, int (*compar)(const void *, const void *))
 {
-    printf("Merge sort\n");
-    printf("N items: %ld\n", nitems);
     merge_sort_rec(base, 0, nitems - 1, compar);
 }
