@@ -5,7 +5,6 @@
 
 void copy_array(void **dest, void **src, size_t l, size_t r)
 {
-    printf("Copy array\n");
     size_t k = 0;
     for (size_t i = l; i <= r; i++)
     {

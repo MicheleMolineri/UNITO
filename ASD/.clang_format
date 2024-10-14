@@ -1,0 +1,8 @@
+BasedOnStyle: Google
+IndentWidth: 2 # Imposta l'indentazione a 2 spazi
+ColumnLimit: 100 # Limite massimo di lunghezza per le righe
+AllowShortFunctionsOnASingleLine: Empty # Funzioni corte su una sola riga solo se vuote
+DerivePointerAlignment: false # Puntatore allineato a sinistra
+PointerAlignment: Left # Allinea i puntatori a sinistra
+SpaceBeforeParens: ControlStatements # Spazi prima delle parentesi nelle istruzioni di controllo
+BreakBeforeBraces: Attach # Fa sì che le parentesi siano attaccate alla stessa linea dell'istruzione

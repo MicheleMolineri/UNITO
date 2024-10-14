@@ -1,0 +1,5 @@
+*.exe
+*.csv
+*.json
+*.clang-format
+*.DS_Store

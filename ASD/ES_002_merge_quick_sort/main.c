@@ -20,7 +20,7 @@ void stampa_array(int *array, int n)
 }
 int main()
 {
-    int array[] = {5, 1, 13, 9};
+    int array[] = {4, 3, 2, 1};
     int n = 4;
     void *ptrs[n];
 
